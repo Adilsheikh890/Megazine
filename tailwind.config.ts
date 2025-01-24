@@ -1,3 +1,4 @@
+import { Poppins } from "next/font/google";
 import type { Config } from "tailwindcss";
 
 export default {
@@ -12,7 +13,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
-    },
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],  // Add Poppins as the default sans-serif font
+      },
+    }, 
   },
   plugins: [],
 } satisfies Config;
