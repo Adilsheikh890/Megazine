@@ -1,10 +1,28 @@
-//import Image from "next/image";
+
+import Slider from "./components/slider";
+import Bottomimage from "./components/bottom-image";
+import FoamSession from "./components/foam-session";
+import ImageSession from "./components/images-session";
 
 export default function Home() {
   return (
-  <div>
-    <h1>Home</h1>
-    <p>Home page content</p>
-  </div>
-  ); 
+    <div>
+      <Slider />
+
+
+
+
+ {/* images session */}
+ <ImageSession/>
+
+ 
+      {/* Session Six */}
+      <FoamSession/>  
+
+
+      {/* Bottom Images */}
+      <Bottomimage/>
+      
+    </div>
+  );
 }
