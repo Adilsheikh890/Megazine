@@ -14,8 +14,10 @@ export default function footer() {
         </div>
  
         {/* social icon */}
-        <div className='flex flex-row lg:space-x-8'> 
-          <h1 className='w-50 h-19 joinus font-medium'>Join Us</h1>
+        <div className='flex flex-row lg:space-x-8 gap-2'> 
+
+        <h1 className=" w-50 h-19 joinus font-medium">Join Us</h1>
+
           <Link
             href="https://www.facebook.com"  target="_blank">
           <Image src={facebook} alt="facebook" className='w-24px h-24px' /></Link>
