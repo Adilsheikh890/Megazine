@@ -9,7 +9,7 @@ export default function foamsession() {
 
     <div
     style={{
-      backgroundImage: `url(${SpaceVideo.src})`, 
+      backgroundImage: `url(${SpaceVideo.src})`,  
       backgroundRepeat: 'no-repeat',
       backgroundPosition : "bottom",
       backgroundColor : "black",}}    >
@@ -18,8 +18,8 @@ export default function foamsession() {
     {/* Bikelight */}
     <div className="bikelight flex lg:flex-row flex-col justify-center items-center ">
 
-  <div className=" justify-center items-center  text-start  text-xl lg:w-1/2">
-    <h1 className="font-semibold liner font-poppins text-center   w-450 h-128.21 ">
+  <div className=" justify-center items-center     lg:w-1/2">
+    <h1 className="font-semibold  text-color lg:text-3xl text-2xl font-poppins text-center   w-450 h-128.21 ">
       World’s first of its  <br/>
       kind Bikelight! 
     </h1> 
@@ -44,7 +44,7 @@ export default function foamsession() {
           height={300}
           className="rounded-lg "
         />
-      </div>   
+      </div>     
       <div>
         <div className="blue  p-4 lg:w-[30rem]  rounded-lg">
           <h1 className="text-black font-semibold  font-poppins">Loved the product?</h1>
