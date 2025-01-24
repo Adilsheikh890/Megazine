@@ -38,7 +38,7 @@
   color: #636363;
 }
 .bikelight{
-  max-width: 1920px;
+  max-width: 1920px;  
   max-height: 1080px;
 
 
@@ -50,4 +50,19 @@
   margin-right: auto;
   
 }
+.images{
+  max-width: 1838px;
+  max-height: 885px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.maskContainer{
+  max-width: 1920px;
+  max-height: 1080px;
 
+}
+.textContainer{
+  max-width: 1021px;
+  max-height: 460px;
+}

@@ -10,7 +10,11 @@ import KopieVonTwo from './Kopie-von-two.jpg';
 import BIkeEvolution from './BIkeEvolution.jpg'
 import foam from './foam.png'
 import SpaceVideo from './SpaceVideo.png'
-
+import BIkeEvolutionSimple from './BIke-Evolution-simple.jpg'
+import BIkeEvolution30 from './BIke Evolution-30.jpg'
+import Evaultion from './Evaultion.jpg'
+import MaskGroup from './MaskGroup.png' 
+import BIkeEvolutions from './BIke Evolution-27.jpg'
 
 export {
 
@@ -26,6 +30,14 @@ export {
     BIkeEvolution,
     foam,
     SpaceVideo,
+    BIkeEvolutionSimple,
+    BIkeEvolution30,
+    Evaultion,
+    MaskGroup,
+    BIkeEvolutions,
+
+
+
     
 
 
