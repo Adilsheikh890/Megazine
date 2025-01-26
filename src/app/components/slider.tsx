@@ -42,22 +42,31 @@ const Slider: React.FC = () => {
 
   return ( 
     <div className="relative">
-      <div className="overflow-hidden"> 
+       <div id="contact" className="absolute lg:mt-[3rem] lg:px-5 lg:py-2 py-1 px-4 mt-[1rem] justify-items-end right-2 bg-gray-400 bg-opacity-10 rounded-lg lg:right-8">
+    <button className="text-white font-poppins">Contact</button>
+</div>
+
+      <div className="overflow-hidden">  
         {/* Image */}
         <Image
            src={slides[currentSlide].image} 
            alt={`Slide ${currentSlide + 1}`}  
           width={1920} 
           height={1080}/> 
+          
+         
+
+         
 
   
         {/* Text */}  
         <div 
           className={`absolute inset-0 flex flex-col lg:w-1/2 lg:ml-[4rem] lg:mt-[10rem]  text-white p-4 ${slides[currentSlide]}`}>  
           <h2 className="text-sm lg:mt-0 mt-5 lg:text-4xl font-poppins italic font-bold mb-2">
-            {slides[currentSlide].text.title} 
+            {slides[currentSlide].text.title}  
           </h2>
 
+        
           <h1 className="text-sm lg:w-1/2 liner italic font-poppins lg:text-5xl font-semibold mb-2">
             {slides[currentSlide].text.subtitle}
           </h1>
@@ -74,6 +83,7 @@ const Slider: React.FC = () => {
         {/* Dots */}
         <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
           {slides.map((_, index) => (
+            
             <button
               key={index}
               onClick={() => setCurrentSlide(index)}
@@ -81,8 +91,10 @@ const Slider: React.FC = () => {
                 currentSlide === index ? "bg-gray-500" : "bg-gray-300"
               }`}
             ></button>
+            
           ))}
         </div>
+      
       </div>
     </div>
   );
