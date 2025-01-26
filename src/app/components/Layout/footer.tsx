@@ -5,9 +5,7 @@ import Link from 'next/link';
 
 export default function footer() {
   return (
-    <div className='footer-main justify-center items-center'>
-
-
+    <div className='footer-main justify-center items-center'> 
       <div className=' justify-between footer-conatiner flex flex-row  p-4 items-center'>
         <div>
           <Image src={BikeEvolutionLog} alt="Bike Evolution Logo" className='w-176px h-36px justify-center items-center  lg:ml-[35rem]' />
