@@ -11,14 +11,14 @@ export default function footer() {
       <div className=' justify-between footer-conatiner flex flex-row  p-4 items-center'>
         <div>
           <Image src={BikeEvolutionLog} alt="Bike Evolution Logo" className='w-176px h-36px justify-center items-center  lg:ml-[35rem]' />
-        </div>
+        </div> 
  
         {/* social icon */}
-        <div className='flex flex-row lg:space-x-8 gap-2'> 
+        <div className='flex flex-row lg:space-x-8 lg:gap-2 gap-4 lg:mt-0 mt-2'> 
 
-        <h1 className=" w-50 h-19 joinus font-medium">Join Us</h1>
+        <h1 className=" w-50 h-19 joinus font-poppins hidden lg:block">Join Us</h1>
 
-          <Link
+          <Link 
             href="https://www.facebook.com"  target="_blank">
           <Image src={facebook} alt="facebook" className='w-24px h-24px' /></Link>
          
@@ -27,11 +27,11 @@ export default function footer() {
           <Link href="https://www.instagram.com/" target='blank'>
           
           <Image src={youtube} alt="youtube" className='w-24px h-24px'   /> </Link>
-        
+          
         </div>
-      </div>
+      </div>   
 
-
+             
 
 
 

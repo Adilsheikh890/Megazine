@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import { BIkeEvolutionSimple,MaskGroup,BIkeEvolutions,BIkeEvolution30,Evaultion} from '@/app/assets/images';
+import { BIkeEvolutionSimple,Rectangle,MaskGroup,BIkeEvolutions,BIkeEvolution30,Evaultion} from '@/app/assets/images';
 import { IoMdArrowDropright } from "react-icons/io";
 import { MdOutlineAccessTime } from "react-icons/md";
 import { MdOutlinePrivacyTip } from "react-icons/md";
@@ -29,9 +29,16 @@ export default function imagessession() {
 
                
             </div>
-            <div className='lg:w-1/2 justify-center items-center text-center'>
-                <Image src={MaskGroup} alt='img'/> 
-            </div>
+            <div className="lg:w-1/2 relative flex justify-center items-center text-center">
+  {/* Background Image */}
+  <Image src={MaskGroup} alt="MaskGroup" className="w-full h-auto" />
+  
+  {/* Overlay Rectangle Image */} 
+  <div className="absolute inset-0 flex lg:mr-[1rem] justify-center items-center p-4">
+    <Image src={Rectangle} alt="Rectangle" className="" />
+  </div>
+</div> 
+
            
 
        
@@ -65,9 +72,9 @@ export default function imagessession() {
 </div>
 
          {/* three imges */}
-      <div className='bg-black p-6'>
+         <div className='bg-black p-6'>
 
-        <div className='flex lg:flex-row justify-center items-center  gap-5'>
+        <div className='flex lg:flex-row flex-col justify-center items-center  gap-5'>
  
 
            {/* left side image */}
@@ -75,15 +82,15 @@ export default function imagessession() {
             <Image src={BIkeEvolution30} alt='img'/>
           </div>
 
-          <div className='flex-col ' >
-          <div className="bg-blue-500   flex justify-center items-center">
-      <h1 className="font-poppins text-white text-xl lg:text-3xl">
+          <div className='lg:flex-col   ' >
+          <div className="bg-blue-400  flex justify-center items-center">
+      <h1 className="font-poppins text-white lg:p-[8rem] p-20  text-xl lg:text-3xl">
         SPECTRALITE
       </h1>
     </div>  
 
            
-            <div>
+            <div className='lg:mt-4 mt-5'>
             <Image src={Evaultion} alt='img'/> 
           </div>
           </div>
@@ -99,8 +106,7 @@ export default function imagessession() {
 
 
       </div>
-
-
+ 
          
 
          {/* one imges */}

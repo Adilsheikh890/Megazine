@@ -14,6 +14,7 @@ import BIkeEvolutionSimple from './BIke-Evolution-simple.jpg'
 import BIkeEvolution30 from './BIke Evolution-30.jpg'
 import Evaultion from './Evaultion.jpg'
 import MaskGroup from './MaskGroup.png' 
+import Rectangle from './Rectangle.png'
 import BIkeEvolutions from './BIke Evolution-27.jpg'
 
 export {
@@ -26,6 +27,7 @@ export {
     instagram,
     youtube,
     KopieVonOne,
+    Rectangle,
     KopieVonTwo, 
     BIkeEvolution,
     foam,
